@@ -2,7 +2,7 @@
 body{
   margin-left: -0.01vw;
   margin-right: -0.01vw;
-  background: url('./assets/background-image.jpg')no-repeat center center;
+  background: url('./assets/background-image.jpg') center center;
 }
 
 table{
@@ -191,6 +191,9 @@ nav, header {
   color: lightgray;
   text-decoration: none;
 }
+.title:hover{
+  color: white
+}
 
 .center{
   margin-left: auto;
@@ -225,4 +228,14 @@ img{
 .tab{
   text-indent: 3em;
   padding-right: 2em;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+.no-topspace{
+  margin-top: -1%;
+}
+
+.bottom-space{
+  margin-bottom: 4%;
 }
